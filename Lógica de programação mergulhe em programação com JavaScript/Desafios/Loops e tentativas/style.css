@@ -1,0 +1,16 @@
+header {
+  text-align: center;
+  font-size: 30px;
+  color: #279eff;
+}
+
+main,
+html {
+  margin: 0;
+  padding: 0;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c356a;
+}
