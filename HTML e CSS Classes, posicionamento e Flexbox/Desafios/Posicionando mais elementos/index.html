@@ -1,0 +1,49 @@
+<!-- 1) Ajustando a altura da tela com CSS
+Você está desenvolvendo um site e deseja que ele ocupe 100% da altura da tela do usuário, sem deixar espaços em branco acima ou abaixo do conteúdo. Para isso, você precisa ajustar o elemento body do seu CSS para garantir que ele preencha toda a altura da tela. Utilize a propriedade height e o valor 100vh para conseguir este efeito. Teste o resultado usando a ferramenta "Inspecionar" do navegador para verificar se o body realmente ocupa toda a altura da tela.
+
+2) Controlando o tamanho de elementos com Box Sizing
+Imagine que você está trabalhando em um projeto web e precisa garantir que todos os elementos filhos dentro do body não ultrapassem os limites, especialmente ao adicionar bordas e paddings. Para isso, você deve utilizar a propriedade box-sizing com o valor border-box no elemento body. Após aplicar esta configuração, inspecione o layout para garantir que nenhum elemento filho ultrapasse o limite do body e os seus próprios tamanhos definidos, mesmo ao adicionar bordas e paddings.
+
+3) Criando um layout sem scroll
+Você recebeu um design do Figma para um site que deve caber em uma única tela, sem necessidade de scroll. O design inclui dois blocos de conteúdo sobre um fundo preto. O desafio é criar um layout CSS que reproduza essa estrutura, garantindo que todo o conteúdo caiba em uma tela, sem scroll. Utilize as propriedades CSS adequadas para posicionar os blocos de conteúdo lado a lado e centralizá-los na página, mantendo o design conforme especificado no Figma.
+
+4) Flexbox: alinhando textos e imagens
+Você está desenvolvendo um site e precisa posicionar textos e uma imagem lado a lado, adaptando-se a diferentes tamanhos de tela. Utilize Flexbox para alinhar um bloco de texto à esquerda e uma imagem à direita dentro de um <main>.
+
+5) Flexbox: Centralização vertical
+Seu desafio é centralizar verticalmente o conteúdo de um container usando Flexbox. Você tem uma <div> com a classe .container contendo vários itens.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Marina GV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>Home</li>
+        <li>Contato</li>
+      </ul>
+    </header>
+    <main class="corpo">
+      <h1 class="titulo-blog">
+        Eleve seu negócio digital a outro nível
+        <strong> com um Front-end de qualidade! </strong>
+      </h1>
+      <p class="texto-destaque">
+        Olá! Sou Marina Golao Vale, desenvolvedora Front-end com especialidade
+        em React, HTML, CSS e JavaScript. Ajudo pequenos negócios e designers a
+        colocarem em prática boas ideias. Vamos conversar?
+      </p>
+      <img class="foto" src="foto.jpg" alt="Minha foto" width="25%" />
+      <a href="https://www.linkedin.com/in/marinagvale/">Linkedin</a>
+      <a href="github.com/MarinaGV93">GitHub</a>
+    </main>
+    <footer>
+      <p>Desenvolvido por MarinaGV</p>
+    </footer>
+  </body>
+</html>

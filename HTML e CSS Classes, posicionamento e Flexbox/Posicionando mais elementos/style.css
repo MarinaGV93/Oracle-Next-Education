@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* Altura 100% da tela */
+  /* vh = view height do viewport */
+  height: 100vh;
+
+  /* Deixar tudo dentro da tela */
+  box-sizing: border-box;
+
+  background-color: #000000;
+  color: #f6f6f6;
+}
+
+/* Guia FlexBox
+ https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+ 
+ Precisa de uma propriedade para o pai, deixando todos os filhos em linha por padrão: 
+ display: flex*/
+.apresentacao {
+  display: flex;
+  /* Coloca a direção LINHA (row) ou COLUNA (column) */
+  /* flex-direction: row; */
+
+  /* Centralizar */
+  align-items: center;
+}
+
+.titulo-destaque {
+  color: #22d4fd;
+}
