@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
+
+/* Medidas  
+  Absolutas: valor fixo 
+  cm, mm, px 
+  Relativas: 
+  em, ex, sh, vh, vw
+  %: porcentagem do espaço da tag pai
+  rem: pega o elemento raiz, a página HTML, do que foi definido no navegador %*/
+
+/* Variáveis global para usar em todo projeto */
+:root {
+  /* Cor */
+  --cor-primaria: #000;
+  --cor-secundaria: #f6f6f6;
+  --cor-terciaria: #22d4fd;
+  --cor-hover: #272727;
+
+  /* Fonte */
+  --fonte-primaria: "Krona One", sans-serif;
+  --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+
+  /* Usar a variável */
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+}
+
+.cabecalho {
+  /* Superior, direito, inferior, esquerdo */
+  padding: 2% 0% 0% 7%;
+}
+
+.cabecalho__menu {
+  display: flex;
+  gap: 30px;
+}
+
+.cabecalho__menu__link {
+  font-family: var(--fonte-secundaria);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cor-terciaria);
+  text-decoration: none;
+}
+
+.apresentacao {
+  padding: 2% 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.apresentacao__conteudo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+  /* Qual espaçamento entre cada um dos elementos filhos */
+  gap: 15px;
+}
+
+.apresentacao__conteudo__titulo {
+  /* 16px = 1rem */
+  /* font-size: 24px; */
+  font-size: 1.5rem;
+  font-family: var(--fonte-primaria);
+}
+
+.titulo-destaque {
+  color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo__texto {
+  font-size: 1rem;
+  font-family: var(--fonte-secundaria);
+}
+
+.apresentacao__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.apresentacao__links__subtitulo {
+  font-family: var(--fonte-primaria);
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.apresentacao__links__navegacao {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 60%;
+  border: 1px solid var(--cor-terciaria);
+  border-radius: 8px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 10px 0;
+  text-decoration: none;
+  color: var(--cor-secundaria);
+  font-family: var(--fonte-secundaria);
+}
+
+/* Hover = ao passar o mouse */
+.apresentacao__links__link:hover {
+  background-color: var(--cor-hover);
+}
+
+.apresentacao__imagem {
+  width: 35%;
+}
+
+.rodape {
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
+  padding: 23px;
+  text-align: center;
+  font-family: var(--fonte-secundaria);
+  font-size: 1rem;
+  font-weight: 400;
+}
