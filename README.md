@@ -68,9 +68,9 @@ Além disto,-->
 | [Funções](https://github.com/MarinaGV93/Oracle-Next-Education/tree/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20explore%20fun%C3%A7%C3%B5es%20e%20listas/Fun%C3%A7%C3%B5es) | [Desafio](https://github.com/MarinaGV93/Oracle-Next-Education/tree/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20explore%20fun%C3%A7%C3%B5es%20e%20listas/Desafios/Fun%C3%A7%C3%B5es) |
 | [Reiniciando o jogo](https://github.com/MarinaGV93/Oracle-Next-Education/tree/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20explore%20fun%C3%A7%C3%B5es%20e%20listas/Reiniciando%20o%20jogo) | [Desafio](https://github.com/MarinaGV93/Oracle-Next-Education/tree/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20explore%20fun%C3%A7%C3%B5es%20e%20listas/Desafios/Reiniciando%20o%20jogo) |
 | [Listas](https://github.com/MarinaGV93/Oracle-Next-Education/tree/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20explore%20fun%C3%A7%C3%B5es%20e%20listas/Listas) | [Desafio](https://github.com/MarinaGV93/Oracle-Next-Education/tree/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20explore%20fun%C3%A7%C3%B5es%20e%20listas/Desafios/Listas) | 
-| []() | []() | 
 | []() | []() |
 | []() | []() |
+| [Challenge - Decodificador de texto](https://github.com/MarinaGV93/Challenge-Decodificador-de-texto---ONE.git) 
 
 </div>
 </div>
