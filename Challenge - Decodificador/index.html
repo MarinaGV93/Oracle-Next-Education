@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge - Decodificador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img
+        class="cabecalho_logo"
+        src="assets/Lupa.svg"
+        alt="Logo Decodificador"
+      />
+    </header>
+    <main class="conteudo">
+      <section class="conteudo_texto_comum">
+        <textarea
+          rows="17"
+          cols="95"
+          class="conteudo_texto_comum_area"
+          placeholder="Digite seu texto"
+        ></textarea>
+        <div class="conteudo_texto_comum_alerta">
+          <div class="conteudo_texto_comum_alerta_mensagem">
+            <img src="./assets/warning.svg" alt="Alerta" />
+            <h6 class="conteudo_texto_comum_obs">
+              Apenas letras minúsculas e sem acento.
+            </h6>
+          </div>
+          <div class="conteudo_texto_comum_botoes">
+            <button
+              class="conteudo_texto_comum_botao_crip"
+              type="button"
+              onclick="btnEncriptar()"
+            >
+              Criptografar
+            </button>
+            <button
+              class="conteudo_texto_comum_botao_descrip"
+              type="button"
+              onclick="btnDesencriptar()"
+            >
+              Descriptografar
+            </button>
+          </div>
+        </div>
+      </section>
+      <aside class="conteudo_texto_convertido">
+        <textarea
+          rows="50"
+          cols="30"
+          class="conteudo_texto_convertido_area"
+          readonly
+          placeholder="Nenhuma mensagem encontrada"
+        ></textarea>
+        <div class="conteudo_texto_convertido_botoes">
+          <button
+            class="conteudo_texto_convertido_botao_copiar"
+            type="button"
+            onclick="btnCopiar()"
+          >
+            Copiar
+          </button>
+          <button
+            class="conteudo_texto_convertido_botao_limpar"
+            type="button"
+            onclick="btnLimpar()"
+          >
+            Limpar
+          </button>
+        </div>
+      </aside>
+    </main>
+    <footer class=" ">
+      <p class="rodape_texto">Desenvolvido por MGV Web Dev</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
